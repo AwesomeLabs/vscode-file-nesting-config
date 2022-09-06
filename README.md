@@ -1,4 +1,4 @@
-<sub><em>Anthony's</em></sub>
+<sub><em>AwesomeLab's</em></sub>
 <h1>File Nesting Config<sup><em> for VS Code</em></sup></h1>
 
 ![](https://user-images.githubusercontent.com/11247099/157142238-b00deecb-8d56-424f-9b20-ef6a6f5ddf99.png)
