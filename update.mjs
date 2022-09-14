@@ -1,5 +1,7 @@
 import fs from "fs";
 
+const expoConfigs = ["app.config.ts", "eas.json"];
+
 const buildTools = [
   "build.config.*",
   "grunt*",
@@ -335,6 +337,7 @@ function sortObject(obj) {
 const full = sortObject({
   ...base,
   ".env.template": stringify(env),
+  "app.json": stringify(expoConfigs),
   dockerfile: stringify(docker),
   "package.json": stringify(packageJSON),
   "rush.json": stringify(packageJSON),
